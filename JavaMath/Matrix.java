@@ -402,7 +402,6 @@ public class Matrix implements Sequence
         }
 
         if (m < n) {
-            // Формула: A+ = A^T * (A * A^T)^(-1)
             Matrix AAT = Matrix.matMul(A, AT); // m x m
 
             double detAAT = Matrix.det(AAT);

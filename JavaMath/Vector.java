@@ -2,7 +2,6 @@ package JavaMath;
 
 import javax.management.InvalidAttributeValueException;
 import java.util.Arrays;
-import java.util.OptionalDouble;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.function.Function;
 import java.util.stream.IntStream;
